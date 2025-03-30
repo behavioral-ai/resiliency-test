@@ -93,7 +93,7 @@ func testSearch() {
 		fmt.Printf("error on ReadAll(): %v\n", status1)
 		return
 	}
-	err := os.WriteFile("C:\\users\\markb\\github\\example-test\\pkg\\resource\\g-golang-4.html", buf, 066)
+	err := os.WriteFile("C:\\users\\markb\\github\\example-cache\\cache\\resource\\g-golang-4.html", buf, 066)
 	if err != nil {
 		fmt.Printf("error on WriteFile(): %v\n", err)
 		return
